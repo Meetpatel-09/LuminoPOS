@@ -1,0 +1,159 @@
+.country-icon {
+    height: 38px;
+    width: 39px;
+}
+
+.text-blue {
+    color: #0961de;
+    margin: 0;
+    font-weight: bold;
+}
+
+.text-dark-blue {
+    color: #3c5f91;
+    margin: 0;
+    font-weight: bold;
+}
+
+.lang-icon {
+    height: 23px;
+    width: 23px;
+}
+
+.top-right-circle {
+    width: 1px;
+    height: 1px;
+    top: -200px;
+    right: -200px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow: -300px 300px 300px 300px #61a2ff;
+}
+
+.bottom-left-circle {
+    width: 1px;
+    height: 1px;
+    background: #000;
+    bottom: -100px;
+    left: -190px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow: 300px -200px 300px 300px #61a2ff;
+}
+
+.logo {
+    width: 142px;
+}
+
+.txt-icon {
+    height: 21px;
+}
+
+.fingureprint {
+    height: 30px;
+}
+
+.bg-l-blue {
+    background-color: #ebf4ff;
+}
+
+.line {
+    width: 2px;
+    background-color: #cfe3ff;
+}
+
+.dial-btn {
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #ebf4ff;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.txt-clear {
+    font-size: small;
+}
+
+.delete-icon {
+    height: 35px;
+}
+
+.my-card {
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.137),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* height: 70vh; */
+}
+
+@media only screen and (max-width: 720px) {
+    .right-card,
+    .line {
+        display: none !important;
+        visibility: hidden;
+        width: 0;
+        padding: 0;
+    }
+
+    .left-card {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    .my-form {
+        padding: 0px !important;
+    }
+
+    .top-right-circle {
+        width: 1px;
+        height: 1px;
+        top: -200px;
+        right: -200px;
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+        box-shadow: -200px 200px 300px 200px #61a2ff;
+    }
+
+    .bottom-left-circle {
+        width: 1px;
+        height: 1px;
+        background: #000;
+        bottom: -100px;
+        left: -190px;
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+        box-shadow: 200px -200px 300px 200px #61a2ff;
+    }
+
+    .info-box {
+        display: none !important;
+    }
+
+    .country-icon {
+        display: none !important;
+    }
+
+    .container {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-card {
+        display: inline-block;
+        margin: 0 !important;
+    }
+}
